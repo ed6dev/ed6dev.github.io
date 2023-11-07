@@ -19,13 +19,13 @@ document.getElementById("calc").addEventListener("submit", function (event) {
   } else {
     result = "The equation admits no solution";
   }
-  const answer = document.getElementById("answer").innerHTML;
-  const answer2 = document.getElementById("answer2").innerHTML;
-  answer = result;
+  const answer = document.getElementById("answer");
+  const answer2 = document.getElementById("answer2");
+  answer.innerHTML = result;
   if (result2) {
-    answer2 = result2;
+    answer2.innerHTML = result2;
   } else {
-    answer2 = null;
+    answer2.innerHTML = null;
   }
 });
 
