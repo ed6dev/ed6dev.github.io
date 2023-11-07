@@ -17,7 +17,7 @@ document.getElementById("calc").addEventListener("submit", function (event) {
     var x = (-b / (2 * a)).toFixed(2);
     result = `[-] x = ${x}`;
   } else {
-    result = "L'équation n'admet aucune solution";
+    result = "The equation admits no solution";
   }
   const answer = document.getElementById("answer");
   const answer2 = document.getElementById("answer2");
