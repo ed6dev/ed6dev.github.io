@@ -24,6 +24,8 @@ document.getElementById("calc").addEventListener("submit", function (event) {
   answer.innerHTML = result;
   if (result2) {
     answer2.innerHTML = result2;
+  } else {
+    answer2.innerHTML = null
   }
 });
 
