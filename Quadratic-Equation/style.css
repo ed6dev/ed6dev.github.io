@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+h4 {
+  color: white;
+}
+
+.submit-btn {
+  color: white;
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: white;
+}
+
+label {
+  color: white;
+}
+
+.input-nums {
+    width: 50px;
+}
