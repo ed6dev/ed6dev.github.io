@@ -28,5 +28,11 @@ label {
 }
 
 .input-nums {
-    width: 50px;
+  width: 50px;
+  background-color: transparent;
+  color: white;
+  border-radius: 4.5px;
+  border-width: 1px;
+  border-color: white;
+  height: 20px;
 }
